@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    HomeScreen()
                 }
             }
         }
@@ -38,6 +38,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     TmdbTheme {
-        Greeting("Android")
+        HomeScreen()
     }
 }
