@@ -98,6 +98,14 @@ fun Details() {
 
 }
 
+/**
+ * commitat promjene na lokalni branch:
+ * git add .
+ * git commit -m "Rijesio yadacu"
+ * git push origin develop
+ *
+ *
+ */
 
 @Composable
 fun TopBox(id:Int, score: String, title: String, date: String, genre: String, duration: String) {

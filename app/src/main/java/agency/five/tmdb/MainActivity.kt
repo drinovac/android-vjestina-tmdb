@@ -22,16 +22,21 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    HomeScreen()
+                    // kreirati router i state u routeri prema live coding primjeri
+                    // ovdje obesrvati state (home, favorites, detais)
+                    // za home i favorites stanje pozivas MainScreen(home) ili MainScreen(favorites)
+                    // za details pozivas DetailsScreen
+                    when (router.state) {
+                        home ->  HomeScreen(home)
+                        favorites ->
+                        details ->
+                    }
+                    HomeScreen(favorites)
+                    DetailsScreen()
                 }
             }
         }
     }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
 }
 
 @Preview(showBackground = true)
