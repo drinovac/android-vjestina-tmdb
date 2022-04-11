@@ -5,6 +5,7 @@ import androidx.activity.OnBackPressedDispatcher
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.runtime.*
 
+//ovaj dio kopiran iz live codinga
 @Composable
 fun BackPressHandler(
     backPressedDispatcher: OnBackPressedDispatcher? =

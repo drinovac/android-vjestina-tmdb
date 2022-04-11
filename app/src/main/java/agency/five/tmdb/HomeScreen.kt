@@ -153,6 +153,7 @@ fun FavoriteButton() {
             modifier = Modifier.align(Alignment.Center)
         )
     }
+    //nije implementirana mogucnost lajkanja kartice filma
 }
 
 @Composable
@@ -198,6 +199,11 @@ fun Whatspopular() {
             }
         }
     }
+
+
+    //ovaj TabRow nisam znao kako skalirati da ne zauzima citavu siritu zaslona,
+    //takoder kada bih povecao font slova u tabu dio teksta se nebi prikazao
+
     /*when (tabIndex) {
         0 ->
         1 ->

@@ -126,19 +126,14 @@ fun Details() {
                 }
             }
         }
+        // Ovaj dio dalje koji ide pod "Social" nisam napravio
+        // mucilo me to sto se u Previewu prikazuje sav sadrzaj no kad se pokrene u emulatoru fale dijelovi
+        // imao sam problem da stavljenjem novog Composablea se nebi prikazao
     }
 
 
 }
 
-/**
- * commitat promjene na lokalni branch:
- * git add .
- * git commit -m "Rijesio yadacu"
- * git push origin develop
- *
- *
- */
 
 @Composable
 fun TopBox(id: Int, score: String, title: String, date: String, genre: String, duration: String) {

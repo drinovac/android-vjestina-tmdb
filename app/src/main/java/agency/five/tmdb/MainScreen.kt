@@ -70,9 +70,6 @@ fun MainScreen(content: String) {
         }
 
     ) {
-        // dva composeabla koji predstavljau tabove: Home i Favorites
-
-        // ovisno o paramteru content pozivas home ili favorites
         if (content == "home") {
             HomeScreen()
         } else if (content == "favorites") {
